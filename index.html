@@ -1,55 +1,184 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
-<head>
-	<title>Aquila</title>
-	<link rel="shortcut icon" type="image/png" href="favicon.png" />
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-</head>
+  <head>
 
-<body>
-	<div class="vsetko">
-		<!-- Header -->
-		<header id="header">
-			<div class="logo">
-				<img src="aquila_text.png" height="200" />
-			</div>
-			<p>Šifrovačka, ktorá si nekladie žiadne limity.
-				<br/>
-				<span class="bla">Okrem toho vekového. Ak vieš, čo tým myslíme.</span>
-			</p>
-		</header>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-		<!-- Signup Form -->
-		<form id="signup-form" method="post" action="send_email.php">
-			<input type="email" name="email" id="email" placeholder="Nebojíš sa nás? Daj nám mail!" />
-			<input type="submit" value="Pošli!" />
-		</form>
-		<p>
-			<span class="bla">Pošleme Ti len relevantné info. Ale to, že hra bude
-				<span class="white">8. septembra</span>, Ti môžeme povedať už teraz.</span>
-		</p>
-	</div>
-	<!-- Footer -->
-	<footer id="footer">
-		Podobné hry:
-		<a href="http://sifrovacka.sk">Brieždenie</a> |
-		<a href="http://nodla.sk">Nôdľa</a> |
-		<a href="http://tmou.cz">Tmou</a>
-		<ul class="copyright">
-			<li>&copy; Aquila, 2018</li>
-		</ul>
-	</footer>
+    <title>Šifrovačka Aquila</title>
+
+    <link rel="shortcut icon" type="image/png" href="./img/logo/aquila-favicon.png"/>
+    
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/agency.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <img class="navbar-brand js-scroll-trigger" src="./img/logo/aquila-white.png" href="#page-top" />
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="https://docs.google.com/forms/d/e/1FAIpQLSfkyG2mcQSisIxhL8tDNxUPoaP0qDBKCbi5rV-rccsHe6HWQQ/viewform?usp=sf_link">Registrácia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRgHJC3dTJpcRDCKvXucSgHn-q_OjIDdZh2goTKJ2xRwLQq72-JA6IcVkEl0mKQWgMII79I3UInBbsK/pubhtml?gid=801756298&single=true">Prihlásené tímy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#rules">Pravidlá</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#faq">FAQ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead">
+      <div class="container">
+        <div class="intro-text">
+          <div class="intro-heading text-uppercase">Šifrovačka Aquila</div>
+          <div class="intro-lead-in">Už 8. septembra v Bratislave!</div>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="https://docs.google.com/forms/d/e/1FAIpQLSfkyG2mcQSisIxhL8tDNxUPoaP0qDBKCbi5rV-rccsHe6HWQQ/viewform?usp=sf_link">Registrácia</a>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRgHJC3dTJpcRDCKvXucSgHn-q_OjIDdZh2goTKJ2xRwLQq72-JA6IcVkEl0mKQWgMII79I3UInBbsK/pubhtml?gid=801756298&single=true">Prihlásené tímy</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Services -->
+    <section id="rules">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Pravidlá</h2>
+          </div>
+          <div class="col-lg-12 text-center"><h3 class="section-heading">Základy</h3></div>
+<p>Aquila je hra. Šifrovacia hra. Budeme predpokladať, že viete, o čo zhruba ide.</p>
+<p>Aquila sa uskutoční 8. 9. 2018 v Bratislave a okolí. Začne o deviatej ráno a bude trvať 10 hodín. V tíme budete maximálne štyria.</p>
+<p>Princípom hry je lúštiť šifry. Keď vylúštite šifru, zistíte, kam pôjdete ďalej. Tam nájdete ďalšiu šifru a môžete opakovať. Nakoniec (snáď) prídete do cieľa. No a samozrejme vyhrá ten tím, ktorý príde cieľa ako prvý.</p>
+<div class="col-lg-12 text-center"><h3 class="section-heading">Tímy</h3></div>
+<p>V tíme budete maximálne štyria a v dobe konania hry budete všetci plnoletí.</p>
+<div class="col-lg-12 text-center"><h3 class="section-heading">Registrácia</h3></div>
+<p>Registrovať sa môžete pomocou <a href="https://docs.google.com/forms/d/e/1FAIpQLSfkyG2mcQSisIxhL8tDNxUPoaP0qDBKCbi5rV-rccsHe6HWQQ/viewform?usp=sf_link">tohto formuláru</a>. Chceli by sme vás požiadať o férovosť a ak budete vedieť, že na hru nakoniec nepôjdete, odhláste sa prosím.</p>
+<p>Keďže hra obnáša nejaké náklady, chceli by sme vás poprosiť o príspevok na hru. Odporúčaná suma je 10 eur. Ak nám dáte viac, potešíme sa, ak menej, neukameňujeme vás za to. Príspevok na hru budeme riešiť na štarte hry.</p>
+<p>Keď sa už do hry registrujete, budeme očakávať, že budete tieto pravidlá poznať a dodržiavať ich.</p>
+<div class="col-lg-12 text-center"><h3 class="section-heading">Štart a cieľ</h3></div>
+<p>Hra začne o 9:00 v Bratislave a skončí o 19:00. Miesto štartu vám pošleme pár dní pred začiatkom. Polohu cieľa vám oznámime po konci hry - ak ho teda nedosiahnete počas hry.</p>
+<div class="col-lg-12 text-center"><h3 class="section-heading">Postup v hre</h3></div>
+<p>Hra je tvorená stanovišťami. Vylúštením šifry X sa dozviete polohu stanovišťa X+1. Na stanovišti nájdete obálku s logom hry a inštrukciami, niekedy tam stretnete aj pomocníka. Pomocníci sú ľudia, ktorí nám pomáhajú strážiť stanovištia, ale nemajú prehľad o hre ako celku - nemusíte teda od nich drankať informácie.</p>
+<p>V ideálnom prípade chcete vylúštiť všetky šifry a prísť do cieľa - tam by mala doraziť aspoň polovica hráčov v tíme, aby ste hru ukončili.</p>
+<p>Očakávame fair play. Ak náhodou nájdete stanovište, ktoré nájsť nemáte, tak ho ignorujte. Vyhradzujeme si právo spýtať sa vás na postup riešenia šifier. Taktiež prosím nespolupracujte medzi tímami, nesledujte iný tím pri presune, nezapájajte do riešenia šifier cudzie osoby, proste nerobte prehrešky proti dobrým mravom a už vôbec nie proti zákonom a vyhláškam. Ak si nie ste istí, či je vaše konanie v rozpore s pravidlami, tak pravdepodobne je a nerobte to. Explicitne sa však môžete cudzích ľudí pýtať na fakty encyklopedickej povahy.</p>
+<p>Medzi stanovišťami sa môžete presúvať len pešo. Špeciálne to znamená zákaz MHD, bicyklov, kolobežiek, áut a podobne.</p>
+<div class="col-lg-12 text-center"><h3 class="section-heading">Šifry</h3></div>
+<p>Pokiaľ vám nepovieme inak, vždy si vezmite dve kópie zadania šifry. Nikdy si neberte posledné zadanie zo stanovišťa a určite v takom prípade volajte organizátorom.</p>
+<p>Tiež volajte organizátorom ak ste si istí, že ste na správnom mieste, ale neviete tam už desať minút zadanie nájsť. Naopak nevolajte, ak si riešením predošlej šifry nie ste úplne istí alebo ak nám chcete vynadať - to môžete koniec-koncov spraviť v cieli.</p>
+<p>Ak je niečo napísané kurzívou, nie je v tom šifra. Ale môže vám to pri lúštení pomôcť. Alebo aj nie.</p>
+<div class="col-lg-12 text-center"><h3 class="section-heading">Mimoriadnosti</h3></div>
+<p>V prípade, že sa stane niečo nepredvídané alebo na to organizátori naozaj majú dobrý dôvod, môžu nejaké pravidlo dočasne zrušiť, pridať, či upraviť. Takéto pravidlá vždy dostanete v nezašifrovanej podobe.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="bg-light" id="faq">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">FAQ</h2>
+          </div>
+          <div class="col">
+          <h3 class="section-subheading text-muted">Čo to pripravujete?</h3>
+<p>Šifrovačku. To je zhruba <a href="https://cs.wikipedia.org/wiki/%C5%A0ifrovac%C3%AD_hra">toto</a>.</p>
+
+<p>Nestačí? Tak sa mrknite napríklad <a href="https://sifrovacky.cz/o-sifrovackach">sem</a>.</p>
+
+<p>Áno, oba tie linky sú české. Napriek tomu sú užitočné. Ak chcete aj nejaký slovenský, tak hľa, link na najväčšiu slovenskú hru tohto typu - <a href="http://www.sifrovacka.sk/2018/">Brieždenie</a>.</p>
+
+<h3 class="section-subheading text-muted">Dobre, ale prečo taký divný názov?</h3>
+<p>Názov odráža našu myšlienku. Chceli sme vytvoriť koncept hry, ktorá sa bude prispôsobovať našim nápadom. Chceli by sme, aby hra putovala po Slovensku. Ak budeme chcieť, môže to byť aj nočná hra. Alebo hra na bicykloch. Čokoľvek sa nám bude páčiť. A “Aquila” znamená “orol”. Orol sa sťahuje. Už je to jasné? Ak aj nie, určite ste si všimli, že má v názve Q - to určite niekedy v nejakej šifre využijeme.</p>
+
+<h3 class="section-subheading text-muted">A nebude to ľahké alebo zle zorganizované?</h3>
+<p>Máme skúsenosti s organizovaním Brieždenia, Nôdle, Matrixu alebo kvalifikácie TMOU. Takže, v skratke, nie.</p>
+
+<h3 class="section-subheading text-muted">Takže začnete dennou hrou v Bratislave?</h3>
+<p>Áno. Dáva to zmysel, keďže ľudia sú už zvyknutí na to, že v Bratislave sa koná aj Brieždenie a Nôdľa. Ale to sa v ďalšom ročníku Aquily zmení, nebojte.</p>
+
+<h3 class="section-subheading text-muted">Môžem na Aquilu ísť, aj keď ešte nemám 18?</h3>
+<p>Nie. Ako by sme vám potom na stanovišti mohli naliať pivo? Sorryjako.</p>
+
+<h3 class="section-subheading text-muted">Prečo je zakázaná MHD?</h3>
+<p>Ak ste čítali pozorne, tak viete, že chceme, aby sa hra sťahovala. A trebárs v Šaštíne tá MHD príliš použiteľná nebude. Tak sme ju radšej zakázali, aby sme v tomto pravidle boli konzistentní.</p>
+
+<h3 class="section-subheading text-muted">Znie to super, ale počas hry už mám iné plány…</h3>
+<p>Ozvi sa nám a môžeme sa dohodnúť na testovaní šifier pre hrou. To nám pomôže. Dúfame.</p>
+
+<h3 class="section-subheading text-muted">Mám otázku, ktorú ste ešte nezodpovedali</h3>
+<p>Napíš nám na <a href="https://www.facebook.com/aquilahra/">náš facebook</a> - ak bude mať aký-taký zmysel, pridáme ju aj sem.</p>
+
+        </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <span class="copyright">Copyright &copy; Šifrovačka Aquila 2018</span>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/aquilahra/">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
 
 
-	<!-- Scripts -->
-	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-</body>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/agency.min.js"></script>
+
+  </body>
 
 </html>
